@@ -1,0 +1,1 @@
+trash_head="Trash: ";trash_tail=`du -sh ~/.Trash/ | awk '{print $1}'`;echo  "$trash_head $trash_tail";

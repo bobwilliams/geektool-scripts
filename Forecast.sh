@@ -1,0 +1,1 @@
+curl -s http://www.wunderground.com/cgi-bin/findweather/getForecast?query=29485 | awk '/Today is/ || /Tomorrow is/' | textutil -convert txt -stdin -stdout -format html
